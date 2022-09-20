@@ -1,0 +1,21 @@
+.nav-link {
+  text-decoration: none;
+  transition: 0, 8s;
+  position: relative;
+  padding: 0 15px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 3px solid #776954;
+    border-radius: 1px;
+    transition: 0.3s;
+    transform: scaleX(0);
+  }
+  &:hover::before {
+    transform: scaleX(1);
+  }
+}

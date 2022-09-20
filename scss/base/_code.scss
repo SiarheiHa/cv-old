@@ -1,0 +1,12 @@
+.code-wrapper {
+    padding-left: 8rem;
+}
+.code {
+    white-space: pre-wrap;
+    &:nth-child(even) {
+        background-color: lighten($color-background, 15%);
+    }
+    &:nth-child(odd) {
+        background-color: lighten($color-background, 5%);
+    }
+}

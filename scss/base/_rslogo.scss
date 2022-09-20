@@ -1,0 +1,9 @@
+.rslogo {
+    filter: invert(1);
+    transition: 0.2s;
+
+    &:hover {
+        filter: invert(77%) sepia(92%) saturate(1889%) hue-rotate(330deg) brightness(100%) contrast(91%);
+        transform: scale(1.2);
+    }
+}

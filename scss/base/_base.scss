@@ -1,0 +1,40 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+  background-image: url("./assets/img/paper-background.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 4rem;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.info-link {
+  display: block;
+  height: 100%;
+  padding-top: 140px;
+  font-size: 3rem;
+  border-radius: 5px;
+  p {
+    background-color: #d0d0d0b5;
+    color: #504e4b;
+  }
+}
