@@ -67,7 +67,7 @@ h2 {
   border-radius: 5px;
 }
 .info-link p {
-  background-color: #d0d0d0;
+  background-color: #d0d0d0b5;
   color: #504e4b;
 }
 
@@ -139,7 +139,7 @@ h2 {
   background-image: url("./assets/img/rs-lang.png");
 }
 .project:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .project:hover .info-link {
   background-color: rgba(0, 0, 0, 0);
@@ -298,7 +298,8 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  column-gap: 0.5rem;
+  row-gap: 2rem;
   text-align: center;
 }
 
