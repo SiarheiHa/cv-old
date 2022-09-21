@@ -12,3 +12,17 @@ header {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+
+.header-link {
+  display: none;
+  text-align: center;
+}
+
+@media print {
+  .nav-list {
+    display: none;
+  }
+  .header-link {
+    display: block;
+  }
+}
