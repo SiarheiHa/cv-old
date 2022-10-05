@@ -257,7 +257,7 @@ header {
 .name-section li {
   padding: 0.5rem 0;
 }
-.name-section h1 {
+.name-section div {
   flex-grow: 1;
   text-align: center;
 }
