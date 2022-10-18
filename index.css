@@ -337,8 +337,8 @@ header {
   text-align: center;
 }
 
-@media print {
-  .projects-wrapper {
+@media print {  
+  .section-projects {
     display: none;
   }
 }
